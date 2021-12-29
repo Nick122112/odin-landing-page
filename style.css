@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: roboto;
+}
+
+.heading,
+.button {
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #f9faf8;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-container {
+  background-color: #1f2937;
+}
+
+.container {
+  max-width: 96rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 96rem;
+  padding: 0 6.4rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.logo {
+  background-color: transparent;
+}
+
+.header-list {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  color: #f9faf8;
+  font-size: 1.4rem;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+}
+
+.hero-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+  padding: 8rem 0rem;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.hero-heading {
+  font-size: 4.8rem;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.hero-button {
+  background-color: #228b22;
+  padding: 0.5rem 2rem;
+}
+
+.hero-image {
+  width: 40rem;
+}
+
+/* HIKES SECTION */
+.popular-hikes-container {
+  padding: 8rem 0rem;
+}
+
+.popular-hikes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.popular-hikes-heading {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.popular-hikes-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.popular-hikes {
+  text-align: center;
+  width: 15rem;
+}
+
+.hike-image {
+  width: 15rem;
+  height: 15rem;
+  border: 3px solid #228b22;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hike-heading {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hike-description {
+  font-size: 1.4rem;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial-container {
+  background-color: #e5e7eb;
+  padding: 8rem 0;
+}
+.testimonial-text {
+  font-size: 3.6rem;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.testimonial-credit {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: right;
+  display: block;
+}
+
+/* SIGN UP SECTION */
+.sign-up-container {
+  padding: 8rem 0;
+}
+.sign-up-section-container {
+  background-color: #228b22;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 0rem;
+  border-radius: 1rem;
+}
+
+.sign-up-heading {
+  font-size: 2.4rem;
+}
+
+.sign-up-description {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.sign-up-section-button {
+  border: 1px solid #f9faf8;
+  padding: 0.5rem 2.5rem;
+}
+
+/* FOOTER CONTAINER */
+.footer-container {
+  background-color: #1f2937;
+}
+
+.footer-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.footer-copyright {
+  color: #f9faf8;
+  font-size: 1.6rem;
+  font-weight: 300;
+}

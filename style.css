@@ -81,12 +81,14 @@ body {
   font-size: 4.8rem;
   font-weight: 800;
   color: #f9faf8;
+  margin: 0rem;
 }
 
 .hero-description {
   font-size: 1.8rem;
   color: #e5e7eb;
   font-weight: 300;
+  margin: 0rem;
 }
 
 .hero-button {
